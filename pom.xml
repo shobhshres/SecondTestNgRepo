@@ -137,6 +137,11 @@
 						<RemoteUrl>${RemoteUrl}</RemoteUrl>
 						<RunArguments>${RunArguments}</RunArguments>
 					</systemPropertyVariables>
+					
+					 <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+               
 				</configuration>
 			</plugin>
 		</plugins>
