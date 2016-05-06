@@ -89,6 +89,14 @@
 			<artifactId>commons-collections</artifactId>
 			<version>3.2.1</version>
 		</dependency>
+		
+		<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.8</version>
+  <scope>test</scope>
+</dependency>
+		
 	</dependencies>
 	<description>This project is the UI (Selenium) Test project.</description>
 	<build>
